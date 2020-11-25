@@ -51,7 +51,8 @@ public class GoodsApp {
 		*/
 		
 
-		Goods cup = new Goods("머그컵", 2000);
+		Goods cup = new Goods("머그컵");
+		cup.setPrice(4000);
 		cup.showInfo();
 		
 		/*

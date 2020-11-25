@@ -30,17 +30,24 @@ public class Goods {
 		return price;
 	}
 	*/
-
+	public Goods() {
+		//다른 생성자가 있으면 생략할 수 없다.
+	}
+	
 	public Goods(String name, int price) {
 		this.name = name;
 		this.price = price;
 	}
 	
+	public Goods(String name) {
+		this.name = name;
+	}
+	
 	public String getName() {
 		return name;
 	}
-
-
+	 
+		
 	public void setName(String name) {
 		this.name = name;
 	}
